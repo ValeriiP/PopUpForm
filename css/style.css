@@ -1,0 +1,51 @@
+
+ .section01{
+ 	padding-top:50px; 
+ 	height: 900px;
+ }
+
+/*Pop-up styles*/
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:100px;
+    height: 40px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.popup-form{   
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.popup-form .list-group-item {
+    border: none;
+}
+.closeButton {
+    position: absolute;
+    right: 0;
+    font-size: 200%;
+    cursor: pointer;
+    color: #dddddd;
+}
+@media screen and (min-width: 600px) {
+   .popup-form{ 
+    width: 450px;
+}
+@media screen and (min-height: 630px) {
+   .popup-form{ 
+   top: 12rem;
+}   
+    /*-----------*/
